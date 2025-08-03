@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "complex video streming platform",
   "type": "module",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "dev": "node --watch src/server.js"
   },
   "author": "Mohit Khemani",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0"
+  }
 }
